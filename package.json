@@ -1,0 +1,28 @@
+{
+  "name": "coutlootimagerecognition",
+  "version": "1.0.0",
+  "description": "AI and ML related services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app/index.js",
+    "video":"node ./app/services/videoRecognition.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameedAnsari/coutlootImagerecognition.git"
+  },
+  "author": "sameed",
+  "license": "ISC",
+  "dependencies": {
+    "clarifai": "^2.9.1",
+    "clarifai-nodejs-grpc": "^7.10.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "tesseract.js": "^2.1.5"
+  },
+  "bugs": {
+    "url": "https://github.com/SameedAnsari/coutlootImagerecognition/issues"
+  },
+  "homepage": "https://github.com/SameedAnsari/coutlootImagerecognition#readme"
+}
